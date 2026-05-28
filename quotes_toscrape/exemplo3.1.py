@@ -19,7 +19,7 @@ task = """
 """
 
 async def main():
-    agent: Agent = Agent(task=task, llm=llm)
+    agent: Agent = Agent(task=task, llm=llm, calculate_cost=True)
     history = await agent.run()
 
     print("Número de STEPS: ", history.number_of_steps())

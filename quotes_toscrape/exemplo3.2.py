@@ -25,7 +25,7 @@ task = """
 """
 
 async def run_agent() -> QuoteList | None:
-    agent: Agent = Agent(task=task, llm=llm, output_model_schema=QuoteList)
+    agent: Agent = Agent(task=task, llm=llm, output_model_schema=QuoteList, calculate_cost=True)
     history = await agent.run()
 
     print("Número de STEPS: ", history.number_of_steps())

@@ -1,0 +1,85 @@
+{
+    "quotes": [
+        {
+            "text": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”",
+            "author": "Albert Einstein",
+            "tags": [
+                {
+                    "text": "change"
+                },
+                {
+                    "text": "deep-thoughts"
+                },
+                {
+                    "text": "thinking"
+                },
+                {
+                    "text": "world"
+                }
+            ]
+        },
+        {
+            "text": "“It is our choices, Harry, that show what we truly are, far more than our abilities.”",
+            "author": "J.K. Rowling",
+            "tags": [
+                {
+                    "text": "abilities"
+                },
+                {
+                    "text": "choices"
+                }
+            ]
+        },
+        {
+            "text": "“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”",
+            "author": "Albert Einstein",
+            "tags": [
+                {
+                    "text": "inspirational"
+                },
+                {
+                    "text": "life"
+                },
+                {
+                    "text": "live"
+                },
+                {
+                    "text": "miracle"
+                },
+                {
+                    "text": "miracles"
+                }
+            ]
+        },
+        {
+            "text": "“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”",
+            "author": "Jane Austen",
+            "tags": [
+                {
+                    "text": "aliteracy"
+                },
+                {
+                    "text": "books"
+                },
+                {
+                    "text": "classic"
+                },
+                {
+                    "text": "humor"
+                }
+            ]
+        },
+        {
+            "text": "“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”",
+            "author": "Marilyn Monroe",
+            "tags": [
+                {
+                    "text": "be-yourself"
+                },
+                {
+                    "text": "inspirational"
+                }
+            ]
+        }
+    ]
+}
