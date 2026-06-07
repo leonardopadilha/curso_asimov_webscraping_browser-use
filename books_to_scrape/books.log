@@ -1,2 +1,28 @@
 2026-05-28 05:56:22 - INFO - main: carregando a página principal de https://books.toscrape.com/
 2026-05-28 06:23:03 - INFO - main: carregando a página principal de https://books.toscrape.com/
+2026-05-29 06:22:25 - INFO - main: carregando a página principal de https://books.toscrape.com/
+2026-05-29 06:22:27 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/
+2026-05-29 06:22:27 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/
+2026-05-29 06:43:52 - INFO - main: carregando a página principal de https://books.toscrape.com/
+2026-05-29 06:43:52 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/
+2026-05-29 06:43:53 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/
+2026-06-05 08:21:25 - INFO - main: carregando a página principal de https://books.toscrape.com/
+2026-06-05 08:21:25 - INFO - main próximo link do catálogo para verificar: https://books.toscrape.com/
+2026-06-05 08:21:25 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/
+2026-06-05 08:22:06 - INFO - main: carregando a página principal de https://books.toscrape.com/
+2026-06-05 08:22:06 - INFO - main próximo link do catálogo para verificar: https://books.toscrape.com/
+2026-06-05 08:22:06 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/
+2026-06-05 08:25:08 - INFO - main: carregando a página principal de https://books.toscrape.com/
+2026-06-05 08:25:08 - INFO - main próximo link do catálogo para verificar: https://books.toscrape.com/
+2026-06-05 08:25:08 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/
+2026-06-05 08:25:08 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/
+2026-06-05 08:25:08 - INFO - main: páginas de catálogo processadas até agora: 1
+2026-06-05 08:25:10 - INFO - main próximo link do catálogo para verificar: https://books.toscrape.com/catalogue/page-2.html
+2026-06-05 08:25:10 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/catalogue/page-2.html
+2026-06-05 08:25:10 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/catalogue/page-2.html
+2026-06-05 08:25:10 - INFO - main: páginas de catálogo processadas até agora: 2
+2026-06-05 08:25:12 - INFO - main próximo link do catálogo para verificar: https://books.toscrape.com/catalogue/page-3.html
+2026-06-05 08:25:12 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/catalogue/page-3.html
+2026-06-05 08:25:13 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/catalogue/page-3.html
+2026-06-05 08:25:13 - INFO - main: páginas de catálogo processadas até agora: 3
+2026-06-05 08:25:15 - INFO - main: total de links extraídos: 60
