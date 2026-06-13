@@ -5,6 +5,7 @@ from contextlib import contextmanager
 from models.link import Link
 from models.book import Book
 from models.usage import Usage
+from tinydb import Query
 
 @contextmanager
 def db_session():
@@ -21,7 +22,7 @@ def db_session():
     finally:
         db.close()
 
-def create_table() -> None:
+def create_tables() -> None:
     if not os.path.exists(DATABASE_FILE):
         with db_session() as db:
             db.table("CATALOG_PARSED_LINK", persist_empty=True) # Links do catalogo que já foram visitados
@@ -56,3 +57,30 @@ def get_book_links() -> list[Link]:
     with db_session() as db:
         table = db.table("BOOK_LINK")
         return [Link(**doc) for doc in table.all()]
+
+def save_book_parsed(link: Link) -> None:
+    with db_session() as db:
+        table = db.table("BOOK_PARSED_LINK")
+        table.insert(link.model_dump())
+
+def save_book_failed(link: Link) -> None:
+    with db_session() as db:
+        table = db.table("BOOK_FAILED_LINK")
+        table.insert(link.model_dump())
+
+def save_usage(usage: Usage) -> None:
+    with db_session() as db:
+        table = db.table("USAGE")
+        table.insert(usage.model_dump())
+
+def is_book_saved(link: Link) -> bool:
+    with db_session() as db:
+        table = db.table("BOOK_PARSED_LINK")
+        query = Query()
+        return bool(table.search(query.url == link.url))
+
+def is_catalog_parsed(link: Link) -> bool:
+    with db_session() as db:
+        table = db.table("CATALOG_PARSED_LINK")
+        query = Query()
+        return bool(table.search(query.url == link.url))

@@ -1,28 +1,60 @@
-2026-05-28 05:56:22 - INFO - main: carregando a página principal de https://books.toscrape.com/
-2026-05-28 06:23:03 - INFO - main: carregando a página principal de https://books.toscrape.com/
-2026-05-29 06:22:25 - INFO - main: carregando a página principal de https://books.toscrape.com/
-2026-05-29 06:22:27 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/
-2026-05-29 06:22:27 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/
-2026-05-29 06:43:52 - INFO - main: carregando a página principal de https://books.toscrape.com/
-2026-05-29 06:43:52 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/
-2026-05-29 06:43:53 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/
-2026-06-05 08:21:25 - INFO - main: carregando a página principal de https://books.toscrape.com/
-2026-06-05 08:21:25 - INFO - main próximo link do catálogo para verificar: https://books.toscrape.com/
-2026-06-05 08:21:25 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/
-2026-06-05 08:22:06 - INFO - main: carregando a página principal de https://books.toscrape.com/
-2026-06-05 08:22:06 - INFO - main próximo link do catálogo para verificar: https://books.toscrape.com/
-2026-06-05 08:22:06 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/
-2026-06-05 08:25:08 - INFO - main: carregando a página principal de https://books.toscrape.com/
-2026-06-05 08:25:08 - INFO - main próximo link do catálogo para verificar: https://books.toscrape.com/
-2026-06-05 08:25:08 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/
-2026-06-05 08:25:08 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/
-2026-06-05 08:25:08 - INFO - main: páginas de catálogo processadas até agora: 1
-2026-06-05 08:25:10 - INFO - main próximo link do catálogo para verificar: https://books.toscrape.com/catalogue/page-2.html
-2026-06-05 08:25:10 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/catalogue/page-2.html
-2026-06-05 08:25:10 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/catalogue/page-2.html
-2026-06-05 08:25:10 - INFO - main: páginas de catálogo processadas até agora: 2
-2026-06-05 08:25:12 - INFO - main próximo link do catálogo para verificar: https://books.toscrape.com/catalogue/page-3.html
-2026-06-05 08:25:12 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/catalogue/page-3.html
-2026-06-05 08:25:13 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/catalogue/page-3.html
-2026-06-05 08:25:13 - INFO - main: páginas de catálogo processadas até agora: 3
-2026-06-05 08:25:15 - INFO - main: total de links extraídos: 60
+2026-06-13 06:27:17 - INFO - main: carregando a página principal de https://books.toscrape.com/
+2026-06-13 06:27:17 - INFO - main: próximo link do catálogo para verificar: https://books.toscrape.com/
+2026-06-13 06:27:17 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/
+2026-06-13 06:27:17 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/
+2026-06-13 06:27:18 - INFO - main: páginas de catálogo processadas até agora: 1
+2026-06-13 06:27:19 - INFO - main: total de links extraídos: 20
+2026-06-13 06:27:20 - INFO - main: total de livros salvos: 0
+2026-06-13 06:28:44 - INFO - main: carregando a página principal de https://books.toscrape.com/
+2026-06-13 06:28:44 - INFO - main: próximo link do catálogo para verificar: https://books.toscrape.com/
+2026-06-13 06:28:44 - INFO - main: link do catálogo já utilizado (ignorado): https://books.toscrape.com/
+2026-06-13 06:28:47 - INFO - main: próximo link do catálogo para verificar: https://books.toscrape.com/catalogue/page-2.html
+2026-06-13 06:28:47 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/catalogue/page-2.html
+2026-06-13 06:28:47 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/catalogue/page-2.html
+2026-06-13 06:28:48 - INFO - main: páginas de catálogo processadas até agora: 1
+2026-06-13 06:28:50 - INFO - main: total de links extraídos: 20
+2026-06-13 06:28:56 - INFO - parse_book: navegando para https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-06-13 06:29:38 - INFO - extract_book_info: STRUCTURED_OUTPUT 
+
+title='A Light in the Attic' description="It's hard to imagine a world without A Light in the Attic. This now-classic collection of poetry and drawings from Shel Silverstein celebrates its 20th anniversary with this special edition. Silverstein's humorous and creative verse can amuse the dowdiest of readers. Lemon-faced adults and fidgety kids sit still and read these rhythmic words and laugh and smile and love th It's hard to imagine a world without A Light in the Attic. This now-classic collection of poetry and drawings from Shel Silverstein celebrates its 20th anniversary with this special edition. Silverstein's humorous and creative verse can amuse the dowdiest of readers. Lemon-faced adults and fidgety kids sit still and read these rhythmic words and laugh and smile and love that Silverstein. Need proof of his genius? RockabyeRockabye baby, in the treetopDon't you know a treetopIs no safe place to rock?And who put you up there,And your cradle, too?Baby, I think someone down here'sGot it in for you. Shel, you never sounded so good. ...more" upc='a897fe39b1053632' price_incl_tax='£51.77' price_excl_tax='£51.77' tax='£0.00' availability='In stock (22 available)' number_of_reviews=0
+
+2026-06-13 06:29:39 - INFO - parse_book: livro A Light in the Attic salvo (steps 3) de : https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html 
+2026-06-13 06:29:42 - INFO - parse_book: navegando para https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+2026-06-13 06:30:24 - INFO - extract_book_info: STRUCTURED_OUTPUT 
+
+title='The Black Maria' description='Praise for Aracelis Girmay:"[Girmay\'s] every loss—she calls them estrangements—is a yearning for connection across time and place; her every fragment is a bulwark against ruin." — O, The Oprah Magazine "In Aracelis Girmay we have a poet who collects, polishes, and shares stories with such brilliant invention, tenderness, and intellectual liveliness that it is understandabl Praise for Aracelis Girmay:"[Girmay\'s] every loss—she calls them estrangements—is a yearning for connection across time and place; her every fragment is a bulwark against ruin." — O, The Oprah Magazine "In Aracelis Girmay we have a poet who collects, polishes, and shares stories with such brilliant invention, tenderness, and intellectual liveliness that it is understandable that we think of her as the blessed curator of our collective histories. There is in her art the vulnerability of one who lives inside of the stories that she gathers in this remarkable collection. Her poems set off alarms even as they transform the world she inhabits, showing us, in the process, exactly what she asks of Romare Bearden’s art: ‘…how not to // assign all blackness near the sea / a captivity.’ This is one of the many sweet contradictions in the black maria, which ‘is a black flag / wounding the pastoral.’ I am deeply thankful that we have a poet of her unique and singular talent writing today." —Kwame DawesTaking its name from the moon\'s dark plains, misidentified as seas by early astronomers, the black maria investigates African diasporic histories, the consequences of racism within American culture, and the question of human identity. Central to this project is a desire to recognize the lives of Eritrean refugees who have been made invisible by years of immigration crisis, refugee status, exile, and resulting statelessness. The recipient of a 2015 Whiting Award for Poetry, Girmay\'s newest collection elegizes and celebrates life, while wrestling with the humanistic notion of seeing beyond: seeing violence, seeing grace, and seeing each other better."to the sea"great storage house, historyon which we rode, we touchedthe brief pulse of your flutteringpages, spelled with salt & life,your rage, your indifferenceyour gentleness washing our feet,all of you going onwhether or not we live,to you we bring our carnationsyellow & pink, how they floatlike bright sentences atopyour memory\'s dark hairAracelis Girmay is the author of three poetry collections, the black maria; Kingdom Animalia, which won the Isabella Gardner Award and was a finalist for the NBCC Award; and Teeth. The recipient of a 2015 Whiting Award, she has received grants and fellowships from the Jerome, Cave Canem, and Watson foundations, as well as Civitella Ranieri and the NEA. She currently teaches at Hampshire College\'s School for Interdisciplinary Arts and in Drew University\'s low residency MFA program. Originally from Santa Ana, California, she splits her time between New York and Amherst, Massachusetts. ...more' upc='1dfe412b8ac00530' price_incl_tax='£52.15' price_excl_tax='£52.15' tax='£0.00' availability='In stock (19 available)' number_of_reviews=0
+
+2026-06-13 06:30:24 - INFO - parse_book: livro The Black Maria salvo (steps 2) de : https://books.toscrape.com/catalogue/the-black-maria_991/index.html 
+2026-06-13 06:30:24 - INFO - main: total de livros salvos: 2
+2026-06-13 06:34:38 - INFO - main: carregando a página principal de https://books.toscrape.com/
+2026-06-13 06:34:38 - INFO - main: próximo link do catálogo para verificar: https://books.toscrape.com/
+2026-06-13 06:34:38 - INFO - main: link do catálogo já utilizado (ignorado): https://books.toscrape.com/
+2026-06-13 06:34:40 - INFO - main: próximo link do catálogo para verificar: https://books.toscrape.com/catalogue/page-2.html
+2026-06-13 06:34:40 - INFO - main: link do catálogo já utilizado (ignorado): https://books.toscrape.com/catalogue/page-2.html
+2026-06-13 06:34:41 - INFO - main: próximo link do catálogo para verificar: https://books.toscrape.com/catalogue/page-3.html
+2026-06-13 06:34:41 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/catalogue/page-3.html
+2026-06-13 06:34:41 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/catalogue/page-3.html
+2026-06-13 06:34:42 - INFO - main: páginas de catálogo processadas até agora: 1
+2026-06-13 06:34:44 - INFO - main: total de links extraídos: 20
+2026-06-13 06:34:45 - INFO - main: livro já salvo (ignorando): https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-06-13 06:34:45 - INFO - main: livro já salvo (ignorando): https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+2026-06-13 06:34:48 - INFO - parse_book: navegando para https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+2026-06-13 06:35:32 - INFO - extract_book_info: STRUCTURED_OUTPUT 
+
+title='Starving Hearts (Triangular Trade Trilogy, #1)' description="Since her assault, Miss Annette Chetwynd has been plagued by nightmares and worries about an arranged marriage. But she yearns to find her anonymous rescuer. Unfortunately, her health and intellect prevent it. Both repel suitors and cause Annette to doubt God's existence, at least until He answers her prayers in an unusual way ... Mr. Peter Adsley is joining the clergy, an Since her assault, Miss Annette Chetwynd has been plagued by nightmares and worries about an arranged marriage. But she yearns to find her anonymous rescuer. Unfortunately, her health and intellect prevent it. Both repel suitors and cause Annette to doubt God's existence, at least until He answers her prayers in an unusual way ... Mr. Peter Adsley is joining the clergy, and he desires a godly wife by his side. After his failed attempt to obtain one, he engages in a clandestine meeting with the bewitching young woman who keeps crossing his path. But she is so unsettling. Destined for disappointments, Peter and Annette endure disgraceful situations. Will Peter's faith sustain him through overwhelming setbacks? Can Annette overcome her doubts? Or will their starving hearts yield to the machinations of a mad man? ...more" upc='0312262ecafa5a40' price_incl_tax='£13.99' price_excl_tax='£13.99' tax='£0.00' availability='In stock (19 available)' number_of_reviews=0
+
+2026-06-13 06:35:32 - INFO - parse_book: livro Starving Hearts (Triangular Trade Trilogy, #1) salvo (steps 4) de : https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html 
+2026-06-13 06:35:32 - INFO - main: total de livros salvos: 1
+2026-06-13 06:38:35 - INFO - main: carregando a página principal de https://books.toscrape.com/
+2026-06-13 06:38:35 - INFO - main: próximo link do catálogo para verificar: https://books.toscrape.com/
+2026-06-13 06:38:35 - INFO - main: link do catálogo já utilizado (ignorado): https://books.toscrape.com/
+2026-06-13 06:38:38 - INFO - main: próximo link do catálogo para verificar: https://books.toscrape.com/catalogue/page-2.html
+2026-06-13 06:38:38 - INFO - main: link do catálogo já utilizado (ignorado): https://books.toscrape.com/catalogue/page-2.html
+2026-06-13 06:38:40 - INFO - main: próximo link do catálogo para verificar: https://books.toscrape.com/catalogue/page-3.html
+2026-06-13 06:38:40 - INFO - main: link do catálogo já utilizado (ignorado): https://books.toscrape.com/catalogue/page-3.html
+2026-06-13 06:38:42 - INFO - main: próximo link do catálogo para verificar: https://books.toscrape.com/catalogue/page-4.html
+2026-06-13 06:38:42 - INFO - extract_catalog_links: página de catálogo carregada completamente: https://books.toscrape.com/catalogue/page-4.html
+2026-06-13 06:38:42 - INFO - parse_catalog: total de 20 links extraídos de https://books.toscrape.com/catalogue/page-4.html
+2026-06-13 06:38:43 - INFO - main: páginas de catálogo processadas até agora: 1
+2026-06-13 06:38:45 - INFO - main: total de links extraídos: 20
+2026-06-13 06:38:46 - INFO - main: total de livros salvos: 0
